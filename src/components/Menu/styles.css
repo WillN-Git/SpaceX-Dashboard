@@ -1,0 +1,53 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  margin: 0 10px;
+}
+
+.image {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  padding-right: 3px;
+}
+
+a,
+.dataSource {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+a.dataLink:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  color: #fff;
+}
+
+.menu > a {
+  margin: 0 8px;
+}

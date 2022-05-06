@@ -1,0 +1,48 @@
+.History {
+  margin: 20px 10px;
+}
+
+.History .flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.History p {
+  font-style: 1rem;
+  font-weight: 400;
+}
+
+.History .charts {
+  display: grid;
+  grid-template-areas: "lbr-lr lby lbs";
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px 15px;
+}
+
+.History .flex-r .image {
+  margin-right: 10px;
+}
+
+.lbr-lr {
+  grid-area: lbr-lr;
+}
+
+.lbs {
+  grid-area: lbs;
+}
+
+.lby {
+  grid-area: lby;
+}
+
+.chart-container {
+  width: 1fr;
+  max-height: 500px;
+  background-color: #474b4f;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 15%);
+  padding: 5px 0;
+}
+
+.chart-title {
+  margin: 0;
+}

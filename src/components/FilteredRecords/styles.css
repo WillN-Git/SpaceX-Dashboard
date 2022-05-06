@@ -1,0 +1,27 @@
+.fr-container {
+  margin: 0 10px;
+  background: #474b4f;
+}
+
+.success {
+  border: 1px solid whitesmoke;
+  padding: 2px 4px;
+  text-align: center;
+  background-color: green;
+}
+
+.failure {
+  border: 1px solid whitesmoke;
+  padding: 2px 4px;
+  background-color: darkred;
+  text-align: center;
+}
+
+.fr-container td {
+  font-size: 1rem;
+  padding: 0;
+}
+
+.fr-container th {
+  padding: 8px 0;
+}

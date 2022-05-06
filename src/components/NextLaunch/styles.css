@@ -1,0 +1,25 @@
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+
+  padding: 18px 10px;
+}
+.upcomingLaunch {
+  align-self: center;
+}
+
+.upcomingLaunch * {
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.countdown p {
+  margin: 0 5px 0 50px;
+  font-size: 1.6rem;
+  text-align: center;
+}
