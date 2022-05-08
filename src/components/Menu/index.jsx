@@ -23,6 +23,7 @@ export default function Menu({ menuItems }) {
           Source de données:&nbsp;
           <a
             href="https://github.com/r-spacex/SpaceX-API"
+            target="_blank"
             className="active dataLink"
           >
             API SpaceX
