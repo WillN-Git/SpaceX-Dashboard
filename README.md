@@ -70,7 +70,7 @@ The following manual tests passed:
 The following tests failed:
 
 | Test No. | Test Name | Result | Issue |
-|:-|:-|:-|
+|:-|:-|:-|:-|
 |1|All charts are appropriately sized for each device (Mobile, Tablet)|FAIL| On mobile devices, table overflow maximum width size|
 |2|Correct display of content|FAIL| The range of the graph of launch results, is display outside its container|
 
@@ -90,4 +90,4 @@ The underlying data for all charts is sourced from the SpaceX API, using the fol
 
 ### Acknowledgements
 
-Thanks to Ryan Tankeng, for his help during the development. Also, thanks to friends for helping with the UX testing.
+Thanks to [Ryan Tankeng](https://github.com/MrRyanWise), for his help during the development. Also, thanks to friends for helping with the UX testing.
