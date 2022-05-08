@@ -19,13 +19,21 @@ export default function Footer() {
           </p>
           <p>
             Developed by &copy;
+           <a
+              href="https://github.com/WillN-Git"
+              target="_blank"
+              rel="noreferrer"
+            >
+             Will Ndefo
+            </a> 
             <a
               href="https://github.com/MrRyanWise"
               target="_blank"
               rel="noreferrer"
             >
-              Ryan Wise 2022
+             Ryan Wise
             </a>
+            2022
           </p>
           <br />
         </div>
