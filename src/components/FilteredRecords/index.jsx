@@ -82,7 +82,7 @@ export default function FilteredRecords({ recordset, gap }) {
                     )}
                   </td>
                   <td class="primary">
-                    <a href={links.webcast} target="blanc">
+                    <a href={links.webcast} target="_blank">
                       {" "}
                       <img
                         src="https://png.pngtree.com/png-clipart/20210214/ourmid/pngtree-youtube-logo-transparent-png-png-image_5990834.png"
