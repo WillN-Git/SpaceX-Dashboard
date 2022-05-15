@@ -8,7 +8,7 @@ export default function Footer() {
         <div class="col-12">
           <br />
           <p>
-            Data Source :
+            Data Source:&nbsp;
             <a
               href="https://github.com/r-spacex/SpaceX-API"
               rel="noreferrer"
@@ -19,21 +19,21 @@ export default function Footer() {
           </p>
           <p>
             Developed by &copy;
-           <a
+            <a
               href="https://github.com/WillN-Git"
               target="_blank"
               rel="noreferrer"
             >
-             Will Ndefo
-            </a> 
+              Will Ndefo
+            </a>
+            &nbsp;&amp;&nbsp;
             <a
               href="https://github.com/MrRyanWise"
               target="_blank"
               rel="noreferrer"
             >
-             Ryan Wise
+              Ryan Wise 2022
             </a>
-            2022
           </p>
           <br />
         </div>
